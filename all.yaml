@@ -5,6 +5,6 @@ metadata:
   description: Cfhighlander theonestack components
 spec:
   targets:
-    - ./components/cfhighlander.system.yaml
+    - components/${componentName}-component.yaml
     - ./components/vpc-v2.component.yaml
     - ./components/acm-v2.component.yaml
